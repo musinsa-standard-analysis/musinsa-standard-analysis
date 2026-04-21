@@ -81,35 +81,37 @@
 ---
 
 ## 레포지토리 구조
-musinsa-standard-analysis/        
-├── README.md      
-│             
-├── data/             
-│   ├── raw/                                    # 크롤링 원본 데이터        
-│   │   ├── musinsastandard_woman_top50.csv           
-│   │   ├── musinsastandard_woman_recommend_top50.csv           
-│   │   ├── musinsastandard_reviews_raw.csv           
-│   │   └── musinsastandard_recommend_reviews_raw.csv            
-│   │                   
-│   ├── processed/                              # 전처리 완료 데이터              
-│   │   ├── reviews_merged.csv           
-│   │   └── recommend_reviews_merged.csv            
-│   │                    
-│   └── analyzed/                              # 분석 결과 데이터              
-│       ├── musinsa_review_analysis.csv            
-│       └── musinsa_review_reco_analysis.csv             
-│             
-├── notebooks/              
-│   ├── 01_crawling.ipynb                      # 판매금액순/추천순 TOP50 상품정보 및 리뷰 수집             
-│   ├── 02_preprocessing_sales.ipynb           # 판매금액순 리뷰 전처리            
-│   ├── 03_preprocessing_recommend.ipynb       # 추천순 리뷰 전처리             
-│   ├── 04_analysis_sales.ipynb                # 판매금액순 감성분석·군집화·키워드 추출            
-│   ├── 05_analysis_recommend.ipynb            # 추천순 감성분석·군집화·키워드 추출          
-│   └── 06_visualization.ipynb                # 판매금액순 vs 추천순 비교 차트·시각화             
-│               
-└── presentation/               
-└── musinsa_final.pdf                      # 최종 발표자료                
-
+```
+musinsa-standard-analysis/
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── raw/                                    # 크롤링 원본 데이터
+│   │   ├── musinsastandard_woman_top50.csv
+│   │   ├── musinsastandard_woman_recommend_top50.csv
+│   │   ├── musinsastandard_reviews_raw.csv
+│   │   └── musinsastandard_recommend_reviews_raw.csv
+│   │
+│   ├── processed/                              # 전처리 완료 데이터
+│   │   ├── reviews_merged.csv
+│   │   └── recommend_reviews_merged.csv
+│   │
+│   └── analyzed/                              # 분석 결과 데이터
+│       ├── musinsa_review_analysis.csv
+│       └── musinsa_review_reco_analysis.csv
+│
+├── notebooks/
+│   ├── 01_crawling.ipynb                      # 판매금액순/추천순 TOP50 상품정보 및 리뷰 수집
+│   ├── 02_preprocessing_sales.ipynb           # 판매금액순 리뷰 전처리
+│   ├── 03_preprocessing_recommend.ipynb       # 추천순 리뷰 전처리
+│   ├── 04_analysis_sales.ipynb                # 판매금액순 감성분석·군집화·키워드 추출
+│   ├── 05_analysis_recommend.ipynb            # 추천순 감성분석·군집화·키워드 추출
+│   └── 06_visualization.ipynb                # 판매금액순 vs 추천순 비교 차트·시각화
+│
+└── presentation/
+    └── musinsa_final.pdf                      # 최종 발표자료
+```
 ---
 
 ## 팀 구성 및 기여
