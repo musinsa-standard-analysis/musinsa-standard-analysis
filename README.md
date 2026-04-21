@@ -43,7 +43,6 @@
 | 판매금액순 TOP50 | 50개 | 28,216건 | 2023-03-14 ~ 2026-04-20 |
 | 추천순 TOP50 | 50개 | 21,295건 | 2023-04-25 ~ 2026-04-21 |
 
-> CSV 파일은 아래 Google Drive에서 다운로드 후 `data/` 폴더에 위치시켜 주세요.
 > 📁 [Google Drive 데이터 폴더](https://drive.google.com/drive/folders/1mjYZzHkTQgJ_u-PrbhI_G52jvdMWuFpE?hl=ko)
 
 ---
