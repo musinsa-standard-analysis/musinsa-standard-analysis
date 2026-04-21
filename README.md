@@ -6,7 +6,7 @@
 ## 프로젝트 개요
 
 무신사 스탠다드 우먼 카테고리에서 추천순과 판매금액순 상위 50개 상품을 비교하고,
-실제 판매 상품의 리뷰를 분석해 고객 세그먼트를 도출한 뒤 추천 구조 개선 방향을 제안합니다.
+실제 판매 상품의 리뷰를 분석해 고객 세그먼트를 도출한 뒤 추천 구조 개선 방향을 제안한다.
 
 - **보고 대상** : 무신사 스탠다드 우먼 제품팀·브랜드팀
 - **분석 기준** : 최근 1개월 판매금액순 TOP 50 / 추천순 TOP 50
@@ -81,34 +81,34 @@
 ---
 
 ## 레포지토리 구조
-musinsa-standard-analysis/
-├── README.md
-│
-├── data/
-│   ├── raw/                                    # 크롤링 원본 데이터
-│   │   ├── musinsastandard_woman_top50.csv
-│   │   ├── musinsastandard_woman_recommend_top50.csv
-│   │   ├── musinsastandard_reviews_raw.csv
-│   │   └── musinsastandard_recommend_reviews_raw.csv
-│   │
-│   ├── processed/                              # 전처리 완료 데이터
-│   │   ├── reviews_merged.csv
-│   │   └── recommend_reviews_merged.csv
-│   │
-│   └── analyzed/                              # 분석 결과 데이터
-│       ├── musinsa_review_analysis.csv
-│       └── musinsa_review_reco_analysis.csv
-│
-├── notebooks/
-│   ├── 01_crawling.ipynb                      # 판매금액순/추천순 TOP50 상품정보 및 리뷰 수집
-│   ├── 02_preprocessing_sales.ipynb           # 판매금액순 리뷰 전처리
-│   ├── 03_preprocessing_recommend.ipynb       # 추천순 리뷰 전처리
-│   ├── 04_analysis_sales.ipynb                # 판매금액순 감성분석·군집화·키워드 추출
-│   ├── 05_analysis_recommend.ipynb            # 추천순 감성분석·군집화·키워드 추출
-│   └── 06_visualization.ipynb                # 판매금액순 vs 추천순 비교 차트·시각화
-│
-└── presentation/
-└── musinsa_final.pdf                      # 최종 발표자료
+musinsa-standard-analysis/        
+├── README.md      
+│             
+├── data/             
+│   ├── raw/                                    # 크롤링 원본 데이터        
+│   │   ├── musinsastandard_woman_top50.csv           
+│   │   ├── musinsastandard_woman_recommend_top50.csv           
+│   │   ├── musinsastandard_reviews_raw.csv           
+│   │   └── musinsastandard_recommend_reviews_raw.csv            
+│   │                   
+│   ├── processed/                              # 전처리 완료 데이터              
+│   │   ├── reviews_merged.csv           
+│   │   └── recommend_reviews_merged.csv            
+│   │                    
+│   └── analyzed/                              # 분석 결과 데이터              
+│       ├── musinsa_review_analysis.csv            
+│       └── musinsa_review_reco_analysis.csv             
+│             
+├── notebooks/              
+│   ├── 01_crawling.ipynb                      # 판매금액순/추천순 TOP50 상품정보 및 리뷰 수집             
+│   ├── 02_preprocessing_sales.ipynb           # 판매금액순 리뷰 전처리            
+│   ├── 03_preprocessing_recommend.ipynb       # 추천순 리뷰 전처리             
+│   ├── 04_analysis_sales.ipynb                # 판매금액순 감성분석·군집화·키워드 추출            
+│   ├── 05_analysis_recommend.ipynb            # 추천순 감성분석·군집화·키워드 추출          
+│   └── 06_visualization.ipynb                # 판매금액순 vs 추천순 비교 차트·시각화             
+│               
+└── presentation/               
+└── musinsa_final.pdf                      # 최종 발표자료                
 
 ---
 
@@ -116,17 +116,15 @@ musinsa-standard-analysis/
 
 ### 만든 사람
 
-**GitHub** : https://github.com/여기에레포링크
-
 > 이신민, 엄주환 불참
 
 ### 팀원별 기여 요약
 
 | 팀원 | 주요 담당 | 기여 비중 |
 |---|---|---|
-| 김예원 | 데이터 수집, 전처리, 시각화, 파일 관리 | 35% |
-| 조수경 | 전략 기획, 보고서 작성, 발표자료 제작 및 발표 | 30% |
-| 최홍주 | NLP 분석, 군집 분석, 시각화 | 35% |
+| 김예원 | 데이터 수집, 전처리, 시각화, 파일 관리 | 33% |
+| 조수경 | 전략 기획, 보고서 작성, 발표자료 제작 및 발표 | 33% |
+| 최홍주 | NLP 분석, 군집 분석, 시각화 | 33% |
 
 ### 기여 영역별 상세
 
