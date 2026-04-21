@@ -84,7 +84,6 @@
 ```
 musinsa-standard-analysis/
 ├── README.md
-├── .gitignore
 │
 ├── data/
 │   ├── raw/                                    # 크롤링 원본 데이터
