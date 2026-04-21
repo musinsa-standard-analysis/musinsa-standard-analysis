@@ -85,7 +85,6 @@
 ## 레포지토리 구조
 musinsa-standard-analysis/
 ├── README.md
-├── .gitignore
 │
 ├── data/
 │   ├── raw/                                    # 크롤링 원본 데이터
@@ -117,6 +116,12 @@ musinsa-standard-analysis/
 
 ## 팀 구성 및 기여
 
+### 만든 사람
+
+**GitHub** : https://github.com/여기에레포링크
+
+> 이신민, 엄주환 불참
+
 ### 팀원별 기여 요약
 
 | 팀원 | 주요 담당 | 기여 비중 |
@@ -124,8 +129,6 @@ musinsa-standard-analysis/
 | 김예원 | 데이터 수집, 전처리, 시각화, 파일 관리 | 35% |
 | 조수경 | 전략 기획, 보고서 작성, 발표자료 제작 및 발표 | 30% |
 | 최홍주 | NLP 분석, 군집 분석, 시각화 | 35% |
-
-> 이신민, 엄주환 불참
 
 ### 기여 영역별 상세
 
@@ -142,7 +145,17 @@ musinsa-standard-analysis/
 ### 기술 스택
 
 **김예원**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+
 `REST API` `JSON 파싱` `정규표현식` `결측치 처리` `중복 제거` `파생변수 생성` `데이터 병합` `벤다이어그램` `막대그래프` `포지셔닝맵` `GitHub` `Google Drive`
 
 **최홍주**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
 `형태소 분석` `TF-IDF` `문장 임베딩` `감성분석` `K-Means 클러스터링` `엘보우/실루엣/데이비스-볼딘 지수 검정` `UMAP` `워드클라우드`
