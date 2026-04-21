@@ -48,16 +48,16 @@
 
 ## 분석 기법
 
-| 기법 | 목적 |
-|---|---|
-| REST API 크롤링 | 무신사 상품정보 및 리뷰 수집 |
-| 정규표현식 | 텍스트 클리닝 및 파싱 |
-| BERT (`korean_sentiment`) | 리뷰 긍정/부정 감성 분류 |
-| 문장 임베딩 (`ko-sroberta-multitask`) | 리뷰 의미 벡터화 |
-| K-Means 클러스터링 | 리뷰 군집화 (K=4) |
-| TF-IDF | 군집별 핵심 키워드 추출 |
-| UMAP | 군집 2D 시각화 |
-| Mann-Whitney U 검정 | 판매순/추천순 속성 차이 통계 검증 |
+| 기법 | 목적 | 라이브러리 |
+|---|---|---|
+| REST API 크롤링 | 무신사 상품정보 및 리뷰 수집 | ![requests](https://img.shields.io/badge/requests-2CA5E0?style=flat) |
+| 정규표현식 | 텍스트 클리닝 및 파싱 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| BERT (`korean_sentiment`) | 리뷰 긍정/부정 감성 분류 | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) |
+| 문장 임베딩 (`ko-sroberta-multitask`) | 리뷰 의미 벡터화 | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) |
+| K-Means 클러스터링 | 리뷰 군집화 (K=4) | ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) |
+| TF-IDF | 군집별 핵심 키워드 추출 | ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) |
+| UMAP | 군집 2D 시각화 | ![umap-learn](https://img.shields.io/badge/umap--learn-6B4FBB?style=flat) |
+| Mann-Whitney U 검정 | 판매순/추천순 속성 차이 통계 검증 | ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white) |
 
 ---
 
@@ -138,21 +138,3 @@ musinsa-standard-analysis/
 | 인사이트 도출 | | ✅ | |
 | 전략 연결·기획 | | ✅ | |
 | 발표자료 제작 | | ✅ | |
-
-### 기술 스택
-
-**김예원**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-
-`REST API` `JSON 파싱` `정규표현식` `결측치 처리` `중복 제거` `파생변수 생성` `데이터 병합` `벤다이어그램` `막대그래프` `포지셔닝맵` `GitHub` `Google Drive`
-
-**최홍주**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-
-`형태소 분석` `TF-IDF` `문장 임베딩` `감성분석` `K-Means 클러스터링` `엘보우/실루엣/데이비스-볼딘 지수 검정` `UMAP` `워드클라우드`
