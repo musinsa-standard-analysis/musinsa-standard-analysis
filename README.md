@@ -1,7 +1,6 @@
 ## 데이터
 
-CSV 파일은 용량 문제로 GitHub에 포함되지 않습니다.
-아래 Google Drive에서 다운로드 후 `data/` 폴더에 위치시켜 주세요.
+일단 링크
 
 ### 📁 [Google Drive 데이터 폴더](https://drive.google.com/링크)
 
