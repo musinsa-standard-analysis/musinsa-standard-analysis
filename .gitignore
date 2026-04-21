@@ -1,0 +1,11 @@
+# CSV 파일 제외 (Google Drive로 대체)
+data/raw/*.csv
+data/processed/*.csv
+
+# .gitkeep은 추적 유지
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 기타
+.ipynb_checkpoints/
+__pycache__/
