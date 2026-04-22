@@ -110,7 +110,8 @@ musinsa-standard-analysis/
 │   └── 06_visualization.ipynb                # 판매금액순 vs 추천순 비교 차트·시각화
 │
 └── presentation/
-    └── musinsa_final.pdf                      # 최종 발표자료
+    └── musinsa_presentation.pdf                      # 최종 발표자료
+    └── musinsa_standard_woman_report.pdf 
 ```
 ---
 
