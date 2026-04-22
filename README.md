@@ -98,7 +98,8 @@ musinsa-standard-analysis/
 │   │
 │   └── analyzed/                              # 분석 결과 데이터
 │       ├── musinsa_review_analysis.csv
-│       └── musinsa_review_reco_analysis.csv
+│       ├── musinsa_review_reco_analysis.csv
+│       └── qualitative_analysis.xlsx
 │
 ├── notebooks/
 │   ├── 01_crawling.ipynb                      # 판매금액순/추천순 TOP50 상품정보 및 리뷰 수집
